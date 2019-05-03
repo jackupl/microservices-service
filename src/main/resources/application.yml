@@ -1,0 +1,17 @@
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true
+
+spring:
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    springfox.documentation: ERROR
